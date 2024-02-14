@@ -6,16 +6,23 @@
         
         <form action="thanks.html">
             <fieldset>
-             <legend>Registration Form</legend>
-
+             <legend> Student Registration Form</legend>
+             
             <label for="name">Name:</label>
-            <input id="name" type="text"><br><br>
+            <input id="name" type="text" placeholder="Enter your name" required><br><br>
+
             <label for="pass">Password:</label>
-            <input id="pass" type="password"><br><br>
+            <input id="pass" type="password" placeholder="Enter password" required><br><br>
+
+            <label for="addmission">Addmission Date:</label>
+            <input id="date" type="date" required><br><br>
+
             <label for="add">Address:</label>
-            <input id="add" type="text"><br><br>
+            <input id="add" type="text" placeholder="Enter Address" required><br><br>
+
             <label for="date">DOB</label>
-            <input id="date" type="date">
+            <input id="date" type="date" required><br><br>
+
             <label for="gender">Gender:</label>
             <input id="gender" name="gender" type="radio">Male
             <input id="gender" name="gender" type="radio">Female
@@ -46,7 +53,9 @@
             </optgroup>
             </select>
             <br><br>
-            <input type="submit" value="Submit">
+            <!--<input type="submit" value="Submit">-->
+            <button>Submit</button>
+            <button disabled>Clik me</button>
         </fieldset>
         </form>
     </body>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Disco</title>
+    </head>
+    <body>
+        <script>
+            color= "blue"
+            function shuffleColor() {
+                if (color=="blue")
+                color="green"
+                else if(color == "green")
+                color="red"
+                else if(color== "red")
+                color="blue"
+                document.body.style.backgroundColor =color
+            }
+            setInterval(shuffleColor,50)
+        </script>
+    </body>
+</html>
